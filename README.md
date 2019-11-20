@@ -16,7 +16,7 @@
 LXD profile contains the network Initialization
  1. copy default profile
  `sudo lxc profile copy default new_profile`
- 2. edit new profile to add ovs-bridge check file: new_profile[a relative link](new_profile)
+ 2. edit new profile to add ovs-bridge check file: [new_profile](new_profile)
  `sudo lxc profile edit new_profile`
 ### Launch LXD
 
