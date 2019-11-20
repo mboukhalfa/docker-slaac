@@ -23,9 +23,9 @@ LXD profile contains the network Initialization
  `sudo lxc profile edit new_profile`
 ### Launch LXD
 
-`sudo lxc launch ubuntu:16.04 container1`
+`sudo lxc launch ubuntu:16.04 container1 -p new_profile`
 
-`sudo lxc launch ubuntu:16.04 container2`
+`sudo lxc launch ubuntu:16.04 container2 -p new_profile`
 
 ### Add ip address to containers
 `sudo lxc exec container1 ip addr add 10.0.0.1/24 dev eth1`
