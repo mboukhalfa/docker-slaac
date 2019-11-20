@@ -26,7 +26,7 @@ devices:
     nictype: bridged
     parent: lxdbr0
     type: nic
-  eth0:
+  eth1:
     name: eth1
     nictype: bridged
     parent: br0
